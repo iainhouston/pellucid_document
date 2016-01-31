@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.document.body
+    - field.field.node.document.field_document_type
+    - field.field.node.document.field_uploaded_files
+    - field.field.node.document.simplenews_issue
+    - node.type.document
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: ru5T536uI1YS1KBcoGUuoQ4P-nb2RSJiMuvZE-Ntzns
+id: node.document.teaser
+targetEntityType: node
+bundle: document
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_document_type:
+    type: entity_reference_label
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_uploaded_files: true
+  simplenews_issue: true
