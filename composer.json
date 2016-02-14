@@ -1,0 +1,16 @@
+{
+  "name": "iainhouston/pellucid_document",
+  "description": "Document content type for pellucid_build",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "keywords": ["pellucid", "php"],
+  "homepage": "https://iainhouston.com",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Iain Houston",
+      "email": "iainhouston@mac.com"
+    }
+  ],
+  "require": { }
+}
