@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: 'Document status'
-vid: document_status
-description: 'Agendas, Minutes, and Documents can be in these states'
-hierarchy: 0
-weight: 0
