@@ -2,6 +2,7 @@ name: Document
 description: 'Provide Document content type and related configuration. A supporting document, typically for one or more <em>Meeting</em>s: e.g. a Planning document; something something from WDDC; etc.'
 type: module
 core: 8.x
+core_version_requirement: ^8 || ^9
 dependencies:
   - block
   - diff
