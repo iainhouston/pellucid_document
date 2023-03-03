@@ -1,19 +1,11 @@
 name: Document
-description: 'Provide Document content type and related configuration. A supporting document, typically for one or more <em>Meeting</em>s: e.g. a Planning document; something something from WDDC; etc.'
+description: 'Provide Document content type and related configuration. A supporting document, typically for one or more <em>Meeting</em>s: e.g. a Planning document; something something from Dorset Council; etc.'
 type: module
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
 dependencies:
-  - block
-  - diff
-  - field
-  - file
-  - meeting
-  - menu_ui
-  - node
-  - path
-  - simplenews
-  - taxonomy
-  - text
-  - user
-  - views
+  - drupal:views
+  - drupal:node
+
+php: 8.1
+
+
